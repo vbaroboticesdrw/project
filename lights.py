@@ -5,8 +5,8 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 button = 4
 all=[22,23,24]
-redled = 23
-yellowled = 22
+redled = 22
+yellowled = 23
 greenled = 24
 GPIO.setup(all,GPIO.OUT,initial=GPIO.LOW)
 GPIO.setup(button,GPIO.IN,GPIO.PUD_UP)
